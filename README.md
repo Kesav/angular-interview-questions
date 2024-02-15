@@ -1,34 +1,22 @@
 # Angular Interview Questions & Answers
 
-> Click :star:if you like the project. Pull Request are highly appreciated. Follow me [@SudheerJonna](https://twitter.com/SudheerJonna) for technical updates.
-
----
-<div align="center">
-        <a href="https://www.fullstack.cafe/?utm_source=github&utm_medium=sud">
-            3600 Tech Interview Questions. <b>Answered</b>.
-            <div>
-                <img src="https://user-images.githubusercontent.com/13550565/76382460-cc784d80-6393-11ea-8837-2b89265ac853.png" width="150" alt="FullStack.Cafe">
-            </div>
-        </a>
-</div>
-
----
-<div align="center">
-    <p>
-        <a href="https://youtu.be/-jeoyDJDsSM">
-            25 Angular interview questions with answers video.
-            <div>
-                <img src="https://img.youtube.com/vi/-jeoyDJDsSM/0.jpg" width="150" height="100" alt="Angular">
-            </div>
-        </a>
-    </p>
-</div>
+> Click :star:if you like the project and follow [@SudheerJonna](https://twitter.com/SudheerJonna) for technical updates. 
 
 ---
 
-## Downloading PDF/Epub formats
+<p align="center">
+  <a href=https://zerotomastery.io/?utm_source=github&utm_medium=sponsor&utm_campaign=angular-interview-questions>
+    <img src=https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=height:70/https://www.filepicker.io/api/file/AKYtjj5SSGyJuyZrkAB2 alt="ZTM Logo" width="100" height="50">
+  </a>
+  <p align="center">
+    <ol>
+    <li>Take this <a href=https://links.zerotomastery.io/angular_sudheer>Angular course</a> to go from a complete Angular beginner to confidently building enterprise-level applications from scratch</li>
+    <li>Take this <a href=https://links.zerotomastery.io/mci_sudheer3>coding interview bootcamp</a> if you’re serious about getting hired and don’t have a CS degree</li>
+    </ol>
+  </p>
+</p>
 
-You can download the PDF and Epub version of this repository from the latest run on the [actions tab](https://github.com/sudheerj/angular-interview-questions/actions).
+---
 
 ### Table of Contents
 
@@ -80,11 +68,11 @@ You can download the PDF and Epub version of this repository from the latest run
 |44| [What is the difference between promise and observable?](#what-is-the-difference-between-promise-and-observable)|
 |45| [What is multicasting?](#what-is-multicasting)|
 |46| [How do you perform error handling in observables?](#how-do-you-perform-error-handling-in-observables)|
-|47| [What is the short hand notation for subscribe method?](#what-is-the-short-hand-notation-for-subscribe-method)|
+|47| [What is the shorthand notation for subscribe method?](#what-is-the-shorthand-notation-for-subscribe-method)|
 |48| [What are the utility functions provided by RxJS?](#what-are-the-utility-functions-provided-by-rxjs)|
 |49| [What are observable creation functions?](#what-are-observable-creation-functions)|
-|50| [What will happen if you do not supply handler for observer?](#what-will-happen-if-you-do-not-supply-handler-for-observer)|
-|51| [What are angular elements?](#what-are-angular-elements)|
+|50| [What will happen if you do not supply handler for the observer?](#what-will-happen-if-you-do-not-supply-handler-for-the-observer)|
+|51| [What are Angular elements?](#what-are-angular-elements)|
 |52| [What is the browser support of Angular Elements?](#what-is-the-browser-support-of-angular-elements)|
 |53| [What are custom elements?](#what-are-custom-elements)|
 |54| [Do I need to bootstrap custom elements?](#do-i-need-to-bootstrap-custom-elements)|
@@ -252,7 +240,7 @@ You can download the PDF and Epub version of this repository from the latest run
 |216| [Is it necessary for bootstrapped component to be entry component?](#is-it-necessary-for-bootstrapped-component-to-be-entry-component)|
 |217| [What is a routed entry component?](#what-is-a-routed-entry-component#)|
 |218| [Why is not necessary to use entryComponents array every time?](#why-is-not-necessary-to-use-entrycomponents-array-every-time)|
-|219| [Do I still need to use entryComponents array in Angular9?](do-i-still-need-to-use-entrycomponents-array-in-angular9#)|
+|219| [Do I still need to use entryComponents array in Angular9?](#do-i-still-need-to-use-entrycomponents-array-in-angular9#)|
 |220| [Is it all components generated in production build?](#is-it-all-components-generated-in-production-build)|
 |221| [What is Angular compiler?](#what-is-angular-compiler)|
 |222| [What is the role of ngModule metadata in compilation process?](#what-is-the-role-of-ngmodule-metadata-in-compilation-process)|
@@ -276,7 +264,7 @@ You can download the PDF and Epub version of this repository from the latest run
 |240| [How do you get current direction for locales??](#how-do-you-get-current-direction-for-locales)|
 |241| [What is ngcc?](#what-is-ngcc)|
 |242| [What classes should not be added to declarations?](#what-classes-should-not-be-added-to-declarations)|
-|243| [Wat is ngzone?](#what-is-ngzone)|
+|243| [What is ngzone?](#what-is-ngzone)|
 |244| [What is NoopZone?](#what-is-noopzone)|
 |245| [How do you create displayBlock components?](#how-do-you-create-displayblock-components)|
 |246| [What are the possible data change scenarios for change detection?](#what-are-the-possible-data-change-scenarios-for-change-detection)|
@@ -307,38 +295,42 @@ You can download the PDF and Epub version of this repository from the latest run
 |271| [How do you get the current route?](#how-do-you-get-the-current-route)|
 |272| [What is Component Test Harnesses?](#what-is-component-test-harnesses)|
 |273| [What is the benefit of Automatic Inlining of Fonts?](#what-is-the-benefit-of-automatic-inlining-of-fonts)|
-|274| [](#)|
-|275| [](#)|
-|276| [](#)|
+|274| [What is content projection?](#what-is-content-projection)|
+|275| [What is ng-content and its purpose?](#what-is-ng-content-and-its-purpose)|
+|276| [What is standalone component?](#what-is-standalone-component)|
+|277| [How to create a standalone component uing CLI command?](#how-to-create-a-standalone-component-uing-cli-command)
+|278| [How to create a standalone component manually?](#how-to-create-a-standalone-component-manually)
+|279| [What is hydration ?](#what-is-hydration)
+|279| [](#)
 
 1. ### What is Angular Framework?
 
-    Angular is a **TypeScript-based open-source** front-end platform that makes it easy to build applications with in web/mobile/desktop. The major features of this framework such as declarative templates, dependency injection, end to end tooling, and many more other features are used to ease the development.
+    Angular is a **TypeScript-based open-source** front-end platform that makes it easy to build web, mobile and desktop applications. The major features of this framework include declarative templates, dependency injection, end to end tooling which ease application development.
 
   **[⬆ Back to Top](#table-of-contents)**
 
 2. ### What is the difference between AngularJS and Angular?
     Angular is a completely revived component-based framework in which an application is a tree of individual components.
 
-    Some of the major difference in tabular form
+    Here are some of the major differences in tabular format:-
 
     | AngularJS | Angular |
     |---- | ---------
     | It is based on MVC architecture| This is based on Service/Controller|
-    | It uses JavaScript to build the application| Introduced the TypeScript to write the application|
+    | It uses JavaScript to build the application| Uses TypeScript to build the application|
     | Based on controllers concept| This is a component based UI approach|
-    | Not a mobile friendly framework| Developed considering mobile platform|
-    | Difficulty in SEO friendly application development| Ease to create SEO friendly applications|
+    | No support for mobile platforms| Fully supports mobile platforms|
+    | Difficult to build SEO friendly application| Ease to build SEO friendly applications|
 
   **[⬆ Back to Top](#table-of-contents)**
 
 3. ### What is TypeScript?
-    TypeScript is a typed superset of JavaScript created by Microsoft that adds optional types, classes, async/await, and many other features, and compiles to plain JavaScript. Angular built entirely in TypeScript and used as a primary language.
-    You can install it globally as
+    TypeScript is a strongly typed superset of JavaScript created by Microsoft that adds optional types, classes, async/await and many other features, and compiles to plain JavaScript. Angular is written entirely in TypeScript as a primary language.
+    You can install TypeScript globally as
     ```cmd
     npm install -g typescript
     ```
-    Let's see a simple example of TypeScript usage,
+    Let's see a simple example of TypeScript usage:-
     ```typescript
     function greeter(person: string) {
         return "Hello, " + person;
@@ -353,17 +345,17 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 4. ### Write a pictorial diagram of Angular architecture?
-    The main building blocks of an Angular application is shown in the below diagram
+    The main building blocks of an Angular application are shown in the diagram below:-
     ![ScreenShot](images/architecture.png)
 
   **[⬆ Back to Top](#table-of-contents)**
 
 5. ### What are the key components of Angular?
-    Angular has the below key components,
-    1. **Component:** These are the basic building blocks of angular application to control HTML views.
-    2. **Modules:** An angular module is set of angular basic building blocks like component, directives, services etc. An application is divided into logical pieces and each piece of code is called as "module" which perform a single task.
-    3. **Templates:** This represent the views of an Angular application.
-    4. **Services:** It is used to create components which can be shared across the entire application.
+    Angular has the key components below,
+    1. **Component:** These are the basic building blocks of an Angular application to control HTML views.
+    2. **Modules:** An Angular module is a set of angular basic building blocks like components, directives, services etc. An application is divided into logical pieces and each piece of code is called as "module" which perform a single task.
+    3. **Templates:** These represent the views of an Angular application.
+    4. **Services:** Are used to create components which can be shared across the entire application.
     5. **Metadata:** This can be used to add more data to an Angular class.
 
   **[⬆ Back to Top](#table-of-contents)**
@@ -388,7 +380,7 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 7. ### What are components?
-    Components are the most basic UI building block of an Angular app which formed a tree of Angular components. These components are subset of directives. Unlike directives, components always have a template and only one component can be instantiated per an element in a template.
+    Components are the most basic UI building block of an Angular app, which form a tree of Angular components. These components are a subset of directives. Unlike directives, components always have a template, and only one component can be instantiated per element in a template.
     Let's see a simple example of Angular component
     ```typescript
     import { Component } from '@angular/core';
@@ -415,9 +407,9 @@ You can download the PDF and Epub version of this repository from the latest run
 
     | Component | Directive |
     |---- | ---------
-    | To register a component we use @Component meta-data annotation  | To register directives we use @Directive meta-data annotation |
-    | Components are typically used to create UI widgets| Directive is used to add behavior to an existing DOM element |
-    | Component is used to break up the application into smaller components| Directive is use to design re-usable components|
+    | To register a component we use @Component meta-data annotation  | To register a directive we use @Directive meta-data annotation |
+    | Components are typically used to create UI widgets| Directives are used to add behavior to an existing DOM element |
+    | Component is used to break down the application into smaller components| Directive is used to design re-usable components|
     | Only one component can be present per DOM element | Many directives can be used per DOM element |
     | @View decorator or templateurl/template are mandatory | Directive doesn't use View|
 
@@ -477,11 +469,11 @@ You can download the PDF and Epub version of this repository from the latest run
     })
     export class AppModule { }
     ```
-    The NgModule decorator has five important(among all) options
-    1. The imports option is used to import other dependent modules. The BrowserModule is required by default for any web based angular application
-    2. The declarations option is used to define components in the respective module
-    3. The bootstrap option tells Angular which Component to bootstrap in the application
-    4. The providers option is used to configure set of injectable objects that are available in the injector of this module.
+    The NgModule decorator has five important (among all) options:
+    1. The imports option is used to import other dependent modules. The BrowserModule is required by default for any web based angular application.
+    2. The declarations option is used to define components in the respective module.
+    3. The bootstrap option tells Angular which Component to bootstrap in the application.
+    4. The providers option is used to configure a set of injectable objects that are available in the injector of this module.
     5. The entryComponents option is a set of components dynamically loaded into the view.
 
   **[⬆ Back to Top](#table-of-contents)**
@@ -585,7 +577,7 @@ You can download the PDF and Epub version of this repository from the latest run
             }
         }
         ```
-    4. **Parameter decorators** Used for parameters inside class constructors, e.g. @Inject, Optional
+    4. **Parameter decorators** Used for parameters inside class constructors, e.g. @Inject, @Optional
         ```typescript
         import { Component, Inject } from '@angular/core';
         import { MyService } from './my-service';
@@ -626,17 +618,20 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 15. ### What is the difference between constructor and ngOnInit?
-    TypeScript classes has a default method called constructor which is normally used for the initialization purpose. Whereas ngOnInit method is specific to Angular, especially used to define Angular bindings. Even though constructor getting called first, it is preferred to move all of your Angular bindings to ngOnInit method.
-    In order to use ngOnInit, you need to implement OnInit interface as below,
+    The **Constructor** is a default method of the class that is executed when the class is instantiated and ensures proper initialisation of fields in the class and its subclasses. Angular, or better Dependency Injector (DI), analyses the constructor parameters and when it creates a new instance by calling new MyClass() it tries to find providers that match the types of the constructor parameters, resolves them and passes them to the constructor.  
+    **ngOnInit** is a life cycle hook called by Angular to indicate that Angular is done creating the component.  
+    Mostly we use ngOnInit for all the initialization/declaration and avoid stuff to work in the constructor. The constructor should only be used to initialize class members but shouldn't do actual "work".
+    So you should use constructor() to setup Dependency Injection and not much else. ngOnInit() is better place to "start" - it's where/when components' bindings are resolved.
 
     ```typescript
     export class App implements OnInit{
-      constructor(){
+      constructor(private myService: MyService){
          //called first time before the ngOnInit()
       }
 
       ngOnInit(){
          //called after the constructor and called  after the first ngOnChanges()
+         //e.g. http call...
       }
     }
     ```
@@ -675,6 +670,29 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 18. ### How is Dependency Hierarchy formed?
+    Injectors in Angular have rules that can be leveraged to achieve the desired visibility of injectables in your applications. By understanding these rules, you can determine in which NgModule, Component, or Directive you should declare a provider.
+
+    #### Angular has two injector hierarchies:
+    ![Screenshot](/images/injector%20hierarchies.png)
+
+    #### Module injector 
+    When angular starts, it creates a root injector where the services will be registered, these are provided via injectable annotation. All services provided in the `ng-model` property are called providers (if those modules are not lazy-loaded).
+
+    Angular recursively goes through all models which are being used in the application and creates instances for provided services in the root injector. If you provide some service in an eagerly-loaded model, the service will be added to the root injector, which makes it available across the whole application.
+
+    #### Platform Module
+    During application bootstrapping angular creates a few more injectors, above the root injector goes the platform injector, this one is created by the platform browser dynamic function inside the `main.ts` file, and it provides some platform-specific features like `DomSanitizer`. 
+
+    #### NullInjector()
+    At the very top, the next parent injector in the hierarchy is the `NullInjector()`.The responsibility of this injector is to throw the error if something tries to find dependencies there, unless you've used `@Optional()` because ultimately, everything ends at the `NullInjector()` and it returns an error or, in the case of `@Optional()`, `null`.
+
+    ![Screenshot](images/hierarchy%20diagram.png)
+
+
+    #### ElementInjector
+    Angular creates `ElementInjector` hierarchies implicitly for each DOM element. `ElementInjector` injector is being created for any tag that matches the angular component, or any tag on which directive is applied, and you can configure it in component and directive annotations inside the provider's property, thus, it creates its own hierarchy likewise the upper one.
+
+    ![Screenshot](images/element%20injector%20hieracrhy.png)
 
   **[⬆ Back to Top](#table-of-contents)**
 
@@ -689,9 +707,14 @@ You can download the PDF and Epub version of this repository from the latest run
            Time: {{ time | async }}</div>`
     })
     export class AsyncObservablePipeComponent {
-      time = new Observable(observer =>
-        setInterval(() => observer.next(new Date().toString()), 2000)
-      );
+      time: Observable<string>;
+      constructor() {
+        this.time = new Observable((observer) => {
+          setInterval(() => {
+            observer.next(new Date().toString());
+          }, 2000);
+        });
+      }
     }
     ```
 
@@ -707,19 +730,19 @@ You can download the PDF and Epub version of this repository from the latest run
 
   **[⬆ Back to Top](#table-of-contents)**
 
-21. ### What is the purpose of ngFor directive?
-    We use Angular ngFor directive in the template to display each item in the list. For example, here we iterate over list of users,
+21. ### What is the purpose of `*ngFor` directive?
+    We use Angular `*ngFor` directive in the template to display each item in the list. For example, here we can iterate over a list of users:
     ```html
     <li *ngFor="let user of users">
       {{ user }}
     </li>
     ```
-    The user variable in the ngFor double-quoted instruction is a **template input variable**
+    The user variable in the `*ngFor` double-quoted instruction is a **template input variable**.
 
   **[⬆ Back to Top](#table-of-contents)**
 
-22. ### What is the purpose of ngIf directive?
-    Sometimes an app needs to display a view or a portion of a view only under specific circumstances. The Angular ngIf directive inserts or removes an element based on a truthy/falsy condition. Let's take an example to display a message if the user age is more than 18,
+22. ### What is the purpose of `*ngIf` directive?
+    Sometimes an app needs to display a view or a portion of a view only under specific circumstances. The Angular `*ngIf` directive inserts or removes an element based on a truthy/falsy condition. Let's take an example to display a message if the user age is more than 18:
     ```html
     <p *ngIf="user.age > 18">You are not eligible for student pass!</p>
     ```
@@ -757,8 +780,8 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 25. ### What are template expressions?
-    A template expression produces a value similar to any Javascript expression. Angular executes the expression and assigns it to a property of a binding target; the target might be an HTML element, a component, or a directive. In the property binding, a template expression appears in quotes to the right of the = symbol as in [property]="expression".
-    In interpolation syntax, the template expression is surrounded by double curly braces. For example, in the below interpolation, the template expression is {{username}},
+    A template expression produces a value similar to any Javascript expression. Angular executes the expression and assigns it to a property of a binding target; the target might be an HTML element, a component, or a directive. In the property binding, a template expression appears in quotes to the right of the = symbol as in `[property]="expression"`.
+    In interpolation syntax, the template expression is surrounded by double curly braces. For example, in the below interpolation, the template expression is `{{username}}`,
 
     ```html
     <h3>{{username}}, welcome to Angular</h3>
@@ -774,7 +797,7 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 26. ### What are template statements?
-    A template statement responds to an event raised by a binding target such as an element, component, or directive. The template statements appear in quotes to the right of the = symbol like **(event)="statement"**.
+    A template statement responds to an event raised by a binding target such as an element, component, or directive. The template statements appear in quotes to the right of the = symbol like `(event)="statement"`.
 
     Let's take an example of button click event's statement
 
@@ -809,7 +832,7 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 28. ### What are pipes?
-    A pipe takes in data as input and transforms it to a desired output. For example, let us take a pipe to transform a component's birthday property into a human-friendly date using **date** pipe.
+    Pipes are simple functions that use [template expressions](#what-are-template-expressions) to accept data as input and transform it into a desired output. For example, let us take a pipe to transform a component's birthday property into a human-friendly date using **date** pipe.
 
     ```javascript
     import { Component } from '@angular/core';
@@ -862,20 +885,20 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 31. ### What is a custom pipe?
-    Apart from built-inn pipes, you can write your own custom pipe with the below key characteristics,
-    1. A pipe is a class decorated with pipe metadata **@Pipe** decorator, which you import from the core Angular library
+    Apart from built-in pipes, you can write your own custom pipe with the below key characteristics:
+    1. A pipe is a class decorated with pipe metadata `@Pipe` decorator, which you import from the core Angular library
        For example,
         ```javascript
             @Pipe({name: 'myCustomPipe'})
         ```
     2. The pipe class implements the **PipeTransform** interface's transform method that accepts an input value followed by optional parameters and returns the transformed value.
-       The structure of pipeTransform would be as below,
+       The structure of `PipeTransform` would be as below,
         ```javascript
         interface PipeTransform {
           transform(value: any, ...args: any[]): any
         }
         ```
-    3. The @Pipe decorator allows you to define the pipe name that you'll use within template expressions. It must be a valid JavaScript identifier.
+    3. The `@Pipe` decorator allows you to define the pipe name that you'll use within template expressions. It must be a valid JavaScript identifier.
         ```javascript
         template: `{{someInputValue | myCustomPipe: someOtherValue}}`
         ```
@@ -910,10 +933,9 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 34. ### What is a bootstrapping module?
-    Every application has at least one Angular module, the root module that you bootstrap to launch the application is called as bootstrapping module. It is commonly known as AppModule. The default structure of AppModule generated by AngularCLI would be as follows,
-
-        ```javascript
-        /* JavaScript imports */
+    Every application has at least one Angular module, the root module that you bootstrap to launch the application is called as bootstrapping module. It is commonly known as `AppModule`. The default structure of `AppModule` generated by AngularCLI would be as follows:
+	
+	```javascript
         import { BrowserModule } from '@angular/platform-browser';
         import { NgModule } from '@angular/core';
         import { FormsModule } from '@angular/forms';
@@ -935,7 +957,7 @@ You can download the PDF and Epub version of this repository from the latest run
           bootstrap: [AppComponent]
         })
         export class AppModule { }
-        ```
+	```
 
   **[⬆ Back to Top](#table-of-contents)**
 
@@ -945,8 +967,8 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 36. ### What is HttpClient and its benefits?
-    Most of the Front-end applications communicate with backend services over HTTP protocol using either XMLHttpRequest interface or the fetch() API. Angular provides a simplified client HTTP API known as **HttpClient** which is based on top of XMLHttpRequest interface. This client is avaialble from `@angular/common/http` package.
-    You can import in your root module as below,
+    Most of the Front-end applications communicate with backend services over `HTTP` protocol using either `XMLHttpRequest` interface or the `fetch()` API. Angular provides a simplified client HTTP API known as `HttpClient` which is based on top of `XMLHttpRequest` interface. This client is available from `@angular/common/http` package.
+    You can import in your root module as below:
 
     ```javascript
     import { HttpClientModule } from '@angular/common/http';
@@ -961,9 +983,9 @@ You can download the PDF and Epub version of this repository from the latest run
 
   **[⬆ Back to Top](#table-of-contents)**
 
-37. ### Explain on how to use HttpClient with an example?
-    Below are the steps need to be followed for the usage of HttpClient.
-    1. Import HttpClient into root module:
+37. ### Explain on how to use `HttpClient` with an example?
+    Below are the steps need to be followed for the usage of `HttpClient`.
+    1. Import `HttpClient` into root module:
         ```javascript
         import { HttpClientModule } from '@angular/common/http';
         @NgModule({
@@ -976,8 +998,8 @@ You can download the PDF and Epub version of this repository from the latest run
           })
          export class AppModule {}
         ```
-    2. Inject the HttpClient into the application:
-        Let's create a userProfileService(userprofile.service.ts) as an example. It also defines get method of HttpClient
+    2. Inject the `HttpClient` into the application:
+        Let's create a userProfileService(`userprofile.service.ts`) as an example. It also defines get method of `HttpClient`:
         ```javascript
         import { Injectable } from '@angular/core';
         import { HttpClient } from '@angular/common/http';
@@ -994,7 +1016,7 @@ You can download the PDF and Epub version of this repository from the latest run
         }
         ```
     3. Create a component for subscribing service:
-        Let's create a component called UserProfileComponent(userprofile.component.ts) which inject UserProfileService and invokes the service method,
+        Let's create a component called UserProfileComponent(`userprofile.component.ts`), which injects `UserProfileService` and invokes the service method:
         ```javascript
         fetchUserProfile() {
           this.userProfileService.getUserProfile()
@@ -1010,7 +1032,7 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 38. ### How can you read full response?
-    The response body doesn't may not return full response data because sometimes servers also return special headers or status code which which are important for the application workflow. Inorder to get full response, you should use observe option from HttpClient,
+    The response body doesn't or may not return full response data because sometimes servers also return special headers or status code, which are important for the application workflow. In order to get the full response, you should use `observe` option from `HttpClient`:
 
     ```javascript
     getUserResponse(): Observable<HttpResponse<User>> {
@@ -1018,12 +1040,12 @@ You can download the PDF and Epub version of this repository from the latest run
         this.userUrl, { observe: 'response' });
     }
     ```
-    Now HttpClient.get() method returns an Observable of typed HttpResponse rather than just the JSON data.
+    Now `HttpClient.get()` method returns an Observable of typed `HttpResponse` rather than just the `JSON` data.
 
   **[⬆ Back to Top](#table-of-contents)**
 
 39. ### How do you perform Error handling?
-    If the request fails on the server or failed to reach the server due to network issues then HttpClient will return an error object instead of a successful reponse. In this case, you need to handle in the component by passing error object as a second callback to subscribe() method.
+    If the request fails on the server or fails to reach the server due to network issues, then `HttpClient` will return an error object instead of a successful reponse. In this case, you need to handle in the component by passing `error` object as a second callback to `subscribe()` method.
 
     Let's see how it can be handled in the component with an example,
     ```javascript
@@ -1035,7 +1057,7 @@ You can download the PDF and Epub version of this repository from the latest run
         );
     }
     ```
-    It is always a good idea to give the user some meaningful feedback instead of displaying the raw error object returned from HttpClient.
+    It is always a good idea to give the user some meaningful feedback instead of displaying the raw error object returned from `HttpClient`.
 
   **[⬆ Back to Top](#table-of-contents)**
 
@@ -1051,11 +1073,11 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 41. ### What is subscribing?
-    An Observable instance begins publishing values only when someone subscribes to it. So you need to subscribe by calling the **subscribe()** method of the instance, passing an observer object to receive the notifications.
+    An Observable instance begins publishing values only when someone subscribes to it. So you need to subscribe by calling the `subscribe()` method of the instance, passing an observer object to receive the notifications.
 
     Let's take an example of creating and subscribing to a simple observable, with an observer that logs the received message to the console.
     ```javascript
-    Creates an observable sequence of 5 integers, starting from 1
+    // Creates an observable sequence of 5 integers, starting from 1
     const source = range(1, 5);
 
     // Create observer object
@@ -1115,21 +1137,21 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 44. ### What is the difference between promise and observable?
-    Below are the list of differences between promise and observable,
+    Below are the list of differences between promise and observable:
 
        | Observable | Promise |
        |---- | --------- |
-       | Declarative: Computation does not start until subscription so that they can be run whenever you need the result | Execute immediately on creation|
-       | Provide multiple values over time | Provide only one |
-       | Subscribe method is used for error handling which makes centralized and predictable error handling| Push errors to the child promises |
-       | Provides chaining and subscription to handle complex applications | Uses only .then() clause |
+       | Declarative: Computation does not start until subscription, so they can run whenever you need the result | Executes immediately on creation|
+       | Provides multiple values over time | Provides only one |
+       | Subscribe method is used for error handling that facilitates centralized and predictable error handling | Push errors to the child promises |
+       | Provides chaining and subscription to handle complex applications | Uses only `.then()` clause |
 
   **[⬆ Back to Top](#table-of-contents)**
 
 45. ### What is multicasting?
     Multi-casting is the practice of broadcasting to a list of multiple subscribers in a single execution.
 
-    Let's demonstrate the multi-casting feature,
+    Let's demonstrate the multi-casting feature:
     ```javascript
     var source = Rx.Observable.from([1, 2, 3]);
     var subject = new Rx.Subject();
@@ -1149,7 +1171,7 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 46. ### How do you perform error handling in observables?
-    You can handle errors by specifying an **error callback** on the observer instead of relying on try/catch which are ineffective in asynchronous environment.
+    You can handle errors by specifying an **error callback** on the observer instead of relying on `try`/`catch`, which are ineffective in asynchronous environment.
 
     For example, you can define error callback as below,
     ```javascript
@@ -1161,8 +1183,8 @@ You can download the PDF and Epub version of this repository from the latest run
 
   **[⬆ Back to Top](#table-of-contents)**
 
-47. ### What is the short hand notation for subscribe method?
-    The subscribe() method can accept callback function definitions in line, for next, error, and complete handlers is known as short hand notation or Subscribe method with positional arguments.
+47. ### What is the shorthand notation for subscribe method?
+    The `subscribe()` method can accept callback function definitions in line, for `next`, `error`, and `complete` handlers. It is known as shorthand notation or Subscribe method with positional arguments.
 
     For example, you can define subscribe method as below,
     ```javascript
@@ -1187,7 +1209,7 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 49. ### What are observable creation functions?
-    RxJS provides creation functions for the process of creating observables from things such as promises, events, timers and Ajax requests. Let us explain each of them with an example,
+    RxJS provides creation functions for the process of creating observables from promises, events, timers and Ajax requests. Let us explain each of them with an example:
     1. Create an observable from a promise
         ```javascript
         import { from } from 'rxjs'; // from function
@@ -1224,13 +1246,13 @@ You can download the PDF and Epub version of this repository from the latest run
 
   **[⬆ Back to Top](#table-of-contents)**
 
-50. ### What will happen if you do not supply handler for observer?
-    Normally an observer object can define any combination of next, error and complete notification type handlers. If you don't supply a handler for a notification type, the observer just ignores notifications of that type.
+50. ### What will happen if you do not supply handler for the observer?
+    Usually, an observer object can define any combination of `next`, `error`, and `complete` notification type handlers. If you don't supply a handler for a notification type, the observer just ignores notifications of that type.
 
   **[⬆ Back to Top](#table-of-contents)**
 
-51. ### What are angular elements?
-    Angular elements are Angular components packaged as **custom elements**(a web standard for defining new HTML elements in a framework-agnostic way). Angular Elements hosts an Angular component, providing a bridge between the data and logic defined in the component and standard DOM APIs, thus, providing a way to use Angular components in `non-Angular environments`.
+51. ### What are Angular elements?
+    Angular elements are Angular components packaged as **custom elements** (a web standard for defining new HTML elements in a framework-agnostic way). Angular Elements host an Angular component, providing a bridge between the data and the logic defined in the component and the standard DOM APIs, thus, providing a way to use Angular components in `non-Angular environments`.
 
   **[⬆ Back to Top](#table-of-contents)**
 
@@ -1310,12 +1332,12 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 59. ### What are dynamic components?
-    Dynamic components are the components in which components location in the application is not defined at build time.i.e, They are not used in any angular template. But the component is instantiated and placed in the application at runtime.
+    Dynamic components are the components in which the component's location in the application is not defined at build time i.e. they are not used in any angular template. Instead, the component is instantiated and placed in the application at runtime.
 
   **[⬆ Back to Top](#table-of-contents)**
 
 60. ### What are the various kinds of directives?
-    There are mainly three kinds of directives,
+    There are mainly three kinds of directives:
     1. **Components** — These are directives with a template.
     2. **Structural directives** — These directives change the DOM layout by adding and removing DOM elements.
     3. **Attribute directives** — These directives change the appearance or behavior of an element, component, or another directive.
@@ -1323,12 +1345,12 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 61. ### How do you create directives using CLI?
-    You can use CLI command `ng generate directive` to create the directive class file. It creates the source file(`src/app/components/directivename.directive.ts`), the respective test file(.spec.ts) and declare the directive class file in root module.
+    You can use CLI command `ng generate directive` to create the directive class file. It creates the source file(`src/app/components/directivename.directive.ts`), the respective test file `.spec.ts` and declare the directive class file in root module.
 
   **[⬆ Back to Top](#table-of-contents)**
 
 62. ### Give an example for attribute directives?
-    Let's take simple highlighter behavior as a example directive for DOM element. You can create and apply the attribute directive using below steps,
+    Let's take simple highlighter behavior as a example directive for DOM element. You can create and apply the attribute directive using below step:
 
     1. Create HighlightDirective class with the file name `src/app/highlight.directive.ts`. In this file, we need to import **Directive** from core library to apply the metadata and **ElementRef** in the directive's constructor to inject a reference to the host DOM element ,
         ```javascript
@@ -1355,7 +1377,7 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 63. ### What is Angular Router?
-    Angular Router is a mechanism in which navigation happens from one view to the next as users perform application tasks. It borrows the concepts or model of browser's application navigation.
+    Angular Router is a mechanism in which navigation happens from one view to the next as users perform application tasks. It borrows the concepts or model of browser's application navigation. It enables developers to build Single Page Applications with multiple views and allow navigation between these views.
 
   **[⬆ Back to Top](#table-of-contents)**
 
@@ -1402,7 +1424,7 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 68. ### What are active router links?
-    RouterLinkActive is a directive that toggles css classes for active RouterLink bindings based on the current RouterState. i.e, the Router will add CSS classes when this link is active and and remove when the link is inactive. For example, you can add them to RouterLinks as below
+    RouterLinkActive is a directive that toggles css classes for active RouterLink bindings based on the current RouterState. i.e, The Router will add CSS classes when this link is active and remove when the link is inactive. For example, you can add them to RouterLinks as below.
 
     ```html
     <h1>Angular Router</h1>
@@ -1535,23 +1557,17 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 77. ### What is JIT?
-    Just-in-Time (JIT) is a type of compilation that compiles your app in the browser at runtime. JIT compilation is the default when you run the ng build (build only) or ng serve (build and serve locally) CLI commands. i.e, the below commands used for JIT compilation,
-
-    ```cmd
-    ng build
-    ng serve
-    ```
+    Just-in-Time (JIT) is a type of compilation that compiles your app in the browser at runtime. JIT compilation was the default until Angular 8, now default is AOT. When you run the ng build (build only) or ng serve (build and serve locally) CLI commands, the type of compilation (JIT or AOT) depends on the value of the aot property in your build configuration specified in angular.json. By default, aot is set to true.
 
   **[⬆ Back to Top](#table-of-contents)**
 
 78. ### What is AOT?
-    Ahead-of-Time (AOT) is a type of compilation that compiles your app at build time. For AOT compilation, include the `--aot` option with the ng build or ng serve command as below,
-
+    Ahead-of-Time (AOT) is a type of compilation that compiles your app at build time. This is the default starting in Angular 9. When you run the ng build (build only) or ng serve (build and serve locally) CLI commands, the type of compilation (JIT or AOT) depends on the value of the aot property in your build configuration specified in angular.json. By default, aot is set to true.
+    
     ```cmd
-    ng build --aot
-    ng serve --aot
+    ng build
+    ng serve
     ```
-    **Note:** The ng build command with the --prod meta-flag (`ng build --prod`) compiles with AOT by default.
 
   **[⬆ Back to Top](#table-of-contents)**
 
@@ -1890,7 +1906,7 @@ You can download the PDF and Epub version of this repository from the latest run
   **[⬆ Back to Top](#table-of-contents)**
 
 100. ### What is codelyzer?
-     Codelyzer provides set of tslint rules for static code analysis of Angular TypeScript projects. ou can run the static code analyzer over web apps, NativeScript, Ionic etc. Angular CLI has support for this and it can be use as below,
+     Codelyzer provides set of tslint rules for static code analysis of Angular TypeScript projects. You can run the static code analyzer over web apps, NativeScript, Ionic etc. Angular CLI has support for this and it can be use as below,
      ```bash
      ng new codelyzer
      ng lint
@@ -2220,7 +2236,7 @@ You can download the PDF and Epub version of this repository from the latest run
    **[⬆ Back to Top](#table-of-contents)**
 
  121. ### What is a builder?
-      A builder function ia a function that uses the `Architect API` to perform a complex process such as "build" or "test". The builder code is defined in an npm package. For example, BrowserBuilder runs a webpack build for a browser target and KarmaBuilder starts the Karma server and runs a webpack build for unit tests.
+      A builder function is a function that uses the `Architect API` to perform a complex process such as "build" or "test". The builder code is defined in an npm package. For example, BrowserBuilder runs a webpack build for a browser target and KarmaBuilder starts the Karma server and runs a webpack build for unit tests.
 
    **[⬆ Back to Top](#table-of-contents)**
 
@@ -2960,7 +2976,7 @@ You can download the PDF and Epub version of this repository from the latest run
         ): Observable<HttpEvent<any>> {
 
           return next.handle(req).do(event => {
-            if (eventt instanceof HttpResponse) {
+            if (event instanceof HttpResponse) {
                  // Code goes here
             }
           });
@@ -4133,24 +4149,24 @@ You can download the PDF and Epub version of this repository from the latest run
          </label>
          ```
      Finally, the component with reactive form control appears as below,
-         ```js
-         import { Component } from '@angular/core';
-         import { FormControl } from '@angular/forms';
-
-         @Component({
-           selector: 'user-profile',
-           styleUrls: ['./user-profile.component.css']
-           template: `
-              <label>
-                User name:
-                <input type="text" [formControl]="userName">
-              </label>
-           `
-         })
-         export class UserProfileComponent {
-           userName = new FormControl('');
-         }
-         ```
+     ```js
+     import { Component } from '@angular/core';
+     import { FormControl } from '@angular/forms';
+	
+     @Component({
+       selector: 'user-profile',
+       styleUrls: ['./user-profile.component.css'],
+       template: `
+         <label>
+           User name:
+           <input type="text" [formControl]="userName">
+         </label>
+       `
+     })
+     export class UserProfileComponent {
+       userName = new FormControl('');
+     }
+     ```
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -4185,8 +4201,8 @@ You can download the PDF and Epub version of this repository from the latest run
      2. Bind the form from template to the component using ngModel syntax
          ```html
          <input type="text" class="form-control" id="name"
-                required
-                [(ngModel)]="model.name" name="name">
+           required
+           [(ngModel)]="model.name" name="name">
          ```
      3.  Attach NgForm directive to the <form> tag in order to create FormControl instances and register them
          ```js
@@ -4210,28 +4226,26 @@ You can download the PDF and Epub version of this repository from the latest run
          // Form goes here
          <button type="submit" class="btn btn-success" [disabled]="!registerForm.form.valid">Submit</button>
          ```
-
      Finally, the completed template-driven registration form will be appeared as follow.
-
-         ```html
-         <div class="container">
-             <h1>Registration Form</h1>
-             <form (ngSubmit)="onSubmit()" #registerForm="ngForm">
-               <div class="form-group">
-                 <label for="name">Name</label>
-                 <input type="text" class="form-control" id="name"
-                        required
-                        [(ngModel)]="model.name" name="name"
-                        #name="ngModel">
-                 <div [hidden]="name.valid || name.pristine"
-                      class="alert alert-danger">
-                   Please enter your name
-                 </div>
-               </div>
-                     <button type="submit" class="btn btn-success" [disabled]="!registerForm.form.valid">Submit</button>
-             </form>
+     ```html
+     <div class="container">
+       <h1>Registration Form</h1>
+       <form (ngSubmit)="onSubmit()" #registerForm="ngForm">
+         <div class="form-group">
+           <label for="name">Name</label>
+             <input type="text" class="form-control" id="name"
+                    required
+                    [(ngModel)]="model.name" name="name"
+                    #name="ngModel">
+             <div [hidden]="name.valid || name.pristine"
+                  class="alert alert-danger">
+               Please enter your name
+             </div>
          </div>
-         ```
+         <button type="submit" class="btn btn-success" [disabled]="!registerForm.form.valid">Submit</button>
+         </form>
+     </div>
+     ```
 
      **[⬆ Back to Top](#table-of-contents)**
 
@@ -4573,8 +4587,135 @@ You can download the PDF and Epub version of this repository from the latest run
       ```js
         console.log(this.router.url); //  /routename
       ```
+
+      **[⬆ Back to Top](#table-of-contents)**
+
 272. ### What is Component Test Harnesses?
      A component harness is a testing API around an Angular directive or component to make tests simpler by hiding implementation details from test suites. This can be shared between unit tests, integration tests, and end-to-end tests. The idea for component harnesses comes from the **PageObject** pattern commonly used for integration testing.
+
+     **[⬆ Back to Top](#table-of-contents)**
      
 273. ### What is the benefit of Automatic Inlining of Fonts?
      During compile time, Angular CLI will download and inline the fonts that your application is using. This performance update speed up the first contentful paint(FCP) and this feature is enabled by default in apps built with version 11.
+
+     **[⬆ Back to Top](#table-of-contents)**
+
+274. ### What is content projection?
+     Content projection is a pattern in which you insert, or project, the content you want to use inside another component.
+
+      **[⬆ Back to Top](#table-of-contents)**
+
+275. ### What is ng-content and its purpose?
+     The ng-content is used to insert the content dynamically inside the component that helps to increase component reusability. 
+
+      **[⬆ Back to Top](#table-of-contents)**
+
+276. ### What is standalone component?
+      A standalone component is a type of component which is not part of any Angular module. It provides a simplified way to build Angular applications.
+
+      **[⬆ Back to Top](#table-of-contents)**
+
+278. ### How to create a standalone component uing CLI command?
+
+      Generate standalone component using CLI command as shown below
+      ```bash
+      ng generate component component-name --standalone
+      ```
+      On running the command standalone component is created.
+      Here is the list of file created.
+      
+      1. `component-name.component.ts`
+      2. `component-name.component.css`
+      3. `component-name.component.spec`
+      4. `component-name.component.html`
+      
+      Next need to update `app.module.ts` as shown below.
+
+      ```typescript
+      import { NgModule } from '@angular/core';
+      import { BrowserModule } from '@angular/platform-browser';
+      import { ComponentNameComponent } from './component-name/component-name.component';
+
+      @NgModule({
+        imports: [
+          BrowserModule,
+          ComponentNameComponent
+        ],
+        declarations: [AppComponent],
+        bootstrap: [AppComponent],
+      })
+      export class AppModule {}
+      ```
+
+      **[⬆ Back to Top](#table-of-contents)**
+
+278. ### How to create a standalone component manually?
+      To make existing component to standalone, then add `standalone: true` in `component-name.component.ts`
+      as shown below
+
+      ```typescript
+      import { CommonModule } from '@angular/common';
+      import { Component, OnInit } from '@angular/core';
+
+      @Component({
+        standalone: true,
+        imports: [CommonModule],
+        selector: 'app-standalone-component',
+        templateUrl: './standalone-component.component.html',
+        styleUrls: ['./standalone-component.component.css'],
+      })
+      export class ComponentNameComponent implements OnInit {
+        constructor() {}
+
+        ngOnInit() {}
+      }
+      ```
+      Next need to update `app.module.ts` as shown below.
+
+      ```typescript
+      import { NgModule } from '@angular/core';
+      import { BrowserModule } from '@angular/platform-browser';
+      import { ComponentNameComponent } from './component-name/component-name.component';
+
+      @NgModule({
+        imports: [
+          BrowserModule,
+          ComponentNameComponent
+        ],
+        declarations: [AppComponent],
+        bootstrap: [AppComponent],
+      })
+      export class AppModule {}
+      ```
+      
+      **[⬆ Back to Top](#table-of-contents)**
+278. ### What is hydration?
+      Hydration is the process that restores the server side rendered application on the client. This includes things like reusing the server rendered DOM structures, persisting the application state, transferring application data that was retrieved already by the server, and other processes.
+
+      To enable hydration, we have to enable server side rendering or Angular Universal. Once enabled, we can add the following piece of code in the root component.
+        
+      ```typescript
+      import {
+        bootstrapApplication,
+        provideClientHydration,
+      } from '@angular/platform-browser';
+
+      bootstrapApplication(RootCmp, {
+        providers: [provideClientHydration()]
+      });
+      ```
+      Alternatively we can add `providers: [provideClientHydration()]` in the App Module
+      ```typescript
+      import {provideClientHydration} from '@angular/platform-browser';
+      import {NgModule} from '@angular/core';
+      ​
+      @NgModule({
+        declarations: [RootCmp],
+        exports: [RootCmp],
+        bootstrap: [RootCmp],
+        providers: [provideClientHydration()],
+      })
+      export class AppModule {}
+      ```
+      
+      **[⬆ Back to Top](#table-of-contents)**
